@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(240,67%,8%);
+    background-image: url("https://raw.githubusercontent.com/tediko/planets-fact/7d4e41663d1df8353bf4bc5aec61e904dc5cd2ad/src/assets/images/background-stars.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 1000px;
+    border-bottom: 1px solid hsl(240,17%,26%);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    color: white;
+    gap: 45px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    flex-basis: 100%;
+    text-align: center;
+    letter-spacing: -1.05px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Spartan", sans-serif;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover{
+    color: white;
+}
+
+main{
+    padding: 80px 60px 60px 40px;
+}
+
+#planetImg{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 60px;
+}
+
+#info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: white;
+}
+
+#infoMain{
+    max-width: 470px;
+}
+
+#name{
+    font-family: Antonio, sans-serif;
+    font-size: 48px;
+    text-align: left;
+}
